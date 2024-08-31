@@ -1,0 +1,52 @@
+.paperStyle{
+    padding: 20px 20px;
+    width: 400;
+    margin: 20px auto;
+    border: 2px solid;
+    gap: 16px;
+     
+}
+
+
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #131921;
+}
+
+.btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+
+.subclass{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+   
+}
+
+.paper2{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+   
+}
+
+.paper2:hover{
+    transform: scale(1.2);
+    color: rgb(72, 153, 14);
+    box-shadow: 0 0 5px red;
+    text-shadow: 0 0 5px red;
+}
+
+.paper2:hover::before{
+    box-shadow: 0 0 15px #ffee10
+}
+
+.name{
+    margin-bottom: 16px;
+}
